@@ -1,0 +1,10 @@
+de/flecktec/shippinglabeler/DHLRetoureLabelCreator.class
+de/flecktec/shippinglabeler/DPDLabelCreator.class
+de/flecktec/shippinglabeler/GLSLabelCreator.class
+de/flecktec/shippinglabeler/Controller/MainViewController.class
+de/flecktec/shippinglabeler/LabelCreator.class
+de/flecktec/shippinglabeler/PDFMain.class
+de/flecktec/shippinglabeler/DHLLabelCreator.class
+de/flecktec/shippinglabeler/AmazonRetourLabelCreator.class
+de/flecktec/shippinglabeler/LabelType.class
+de/flecktec/shippinglabeler/LabelCreatorFactory.class
