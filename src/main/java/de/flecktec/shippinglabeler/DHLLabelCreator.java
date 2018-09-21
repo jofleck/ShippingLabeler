@@ -42,14 +42,14 @@ public class DHLLabelCreator extends LabelCreator {
                 BufferedImage barcode2 = cropImage(bim, new Rectangle(mmToPixels(185) , mmToPixels(164), mmToPixels(55) ,mmToPixels(25)));
                 contentStream.drawImage(JPEGFactory.createFromImage(targetdocument, barcode2), 116*mm, 0*mm, 55*mm, 25 * mm);*/
 
-                BufferedImage adressLabel = cropImage(bim, new Rectangle(mmToPixels(160) , mmToPixels(16), mmToPixels(106) ,mmToPixels(53)));
+                BufferedImage adressLabel = cropImage(bim, new Rectangle(mmToPixels(172) , mmToPixels(14.5), mmToPixels(106) ,mmToPixels(53)));
                 contentStream.drawImage(JPEGFactory.createFromImage(targetdocument, adressLabel), 0*mm, 0*mm, 113*mm, 56.08f * mm);
 
-                BufferedImage barcode1 = cropImage(bim, new Rectangle(mmToPixels(185) , mmToPixels(131), mmToPixels(55) ,mmToPixels(25)));
-                contentStream.drawImage(JPEGFactory.createFromImage(targetdocument, barcode1), 116*mm, 30*mm, 55*mm, 25 * mm);
+                BufferedImage barcode1 = cropImage(bim, new Rectangle(mmToPixels(195) , mmToPixels(136), mmToPixels(60) ,mmToPixels(25)));
+                contentStream.drawImage(JPEGFactory.createFromImage(targetdocument, barcode1), 116*mm, 30*mm, 60*mm, 25 * mm);
 
-                BufferedImage barcode2 = cropImage(bim, new Rectangle(mmToPixels(185) , mmToPixels(164), mmToPixels(55) ,mmToPixels(25)));
-                contentStream.drawImage(JPEGFactory.createFromImage(targetdocument, barcode2), 116*mm, 0*mm, 55*mm, 25 * mm);
+                BufferedImage barcode2 = cropImage(bim, new Rectangle(mmToPixels(195) , mmToPixels(172.5), mmToPixels(60) ,mmToPixels(25)));
+                contentStream.drawImage(JPEGFactory.createFromImage(targetdocument, barcode2), 116*mm, 0*mm, 60*mm, 25 * mm);
 
                 contentStream.close();
 
